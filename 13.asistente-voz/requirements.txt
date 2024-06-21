@@ -1,0 +1,11 @@
+setuptools==69.5.1
+cmake==3.29.3
+wheel==0.43.0
+dlib==19.24.2
+gTTS==2.5.1
+pyaudio==0.2.14
+SpeechRecognition==3.10.4
+pywhatkit==5.4
+yfinance==0.2.40
+pyjokes==0.6.0
+wikipedia==1.4.0
