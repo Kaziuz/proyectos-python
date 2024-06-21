@@ -1,6 +1,6 @@
 # Clon space invaders
 
-![Flujo del programa](https://raw.githubusercontent.com/Kaziuz/proyectos-python/main/6.Recetario/administrador-recetas.jpg)
+![Flujo del programa](https://raw.githubusercontent.com/Kaziuz/proyectos-python/main/10.clon-space-invaders/captura-juego.png)
 
 Este programa es un clon sencillo del mítico juego space invaders. Utiliza la librería pygame para realizar el juego.
 
