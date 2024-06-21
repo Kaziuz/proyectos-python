@@ -1,6 +1,6 @@
 # Gestor para un negocio
 
-![captura-interface](https://raw.githubusercontent.com/Kaziuz/proyectos-python/main/10.clon-space-invaders/captura-juego.png)
+![captura-interface](https://raw.githubusercontent.com/Kaziuz/proyectos-python/main/12.Gestor-restaurante/captura-interface.png)
 
 Este programa es una aplicación de facturación para un restaurante ficticio. Ofrece las siguientes funcionalidades:
 
