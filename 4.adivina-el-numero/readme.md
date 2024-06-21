@@ -10,3 +10,9 @@ Entonces, en cada intento el jugador dirá un número y el programa puede respon
 - Y si el usuario acertó el número secreto, se le va a informar que ha ganado y cuántos intentos le ha tomado.
 - Si el usuario no ha acertado en este primer intento, se le va a volver a pedir que elija otro número.
 Y así hasta que gane o hasta que se agoten los ocho intentos.
+
+## Para ejecutar el script en consola
+
+```sh
+python adivina_el_numero.py
+```
