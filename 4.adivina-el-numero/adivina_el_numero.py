@@ -1,6 +1,4 @@
-'''
-Adivina el numero
-'''
+# Adivina el numero
 
 from random import randint
 
@@ -8,7 +6,7 @@ name_user = input("Escriba su nombre: ")
 
 generated_number = randint(1, 100)
 
-print(f"Bueno {name_user}, he pensado un numero entre 1 y 100.\nTienes solo 8 intentos para adivinar el número.")
+print(f"\nBueno {name_user}, he pensado un numero entre 1 y 100.\nTienes solo 8 intentos para adivinar el número.\n")
 
 attempts = 8
 attempts_counter = 1
