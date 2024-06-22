@@ -1,0 +1,20 @@
+{% extends 'base/principal.html' %} <!-- Conectamos esta pagina con la principal -->
+
+{% block content %}
+
+<div class="barra-superior">
+  <a href="{% url 'tareas' %}">Volver</a>
+</div>
+
+<div class="cuerpo-tarjeta">
+  <form method="POST" action="">
+    <!-- Este csrf es un token de seguridad: cross sigth request fogerty/ falsificación de usuario -->
+    {% csrf_token %}
+    <!-- {{form.as_ul}} asi muestra el form en una lista -->
+    <!-- Nos traemos el formulario -->
+     {{ form.as_p }}
+    <input class="button" type="submit" value="Enviar" />
+  </form>
+</div>
+
+{% endblock content %}

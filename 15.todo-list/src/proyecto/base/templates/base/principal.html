@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+  <style>
+    body {
+      background-color: #C2859E;
+      font-family: "Montserrat", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: 300;
+      font-style: normal;
+      padding-top: 60px;
+    }
+    .container {
+      max-width: 550px;
+      margin: auto;
+      background-color: #F5B7B1;
+      box-shadow: 2px 2px 13px -4px rgba(0, 0, 0, 0.21);
+      border-radius: 5px 5px 0 0;
+    }
+    /* encabezados */
+    h1, h2, h3, h4, h5, h6 {
+      font-family: "Lato", sans-serif;
+      font-weight: 900;
+      font-style: normal;
+    }
+    a, p {
+      color: #C70039;
+    }
+    .barra-superior {
+      display: flex;
+      justify-content: space-between;
+      color: white;
+      padding: 10px;
+      border-radius: 5px 5px 0 0;
+      background: linear-gradient(90deg, #DE7E54 0%, #EC500C 43%, #EC500C 100%);
+    }
+    .barra-superior button, .barra-superior a {
+      background-color: transparent;
+      border: 1px solid transparent;
+      border-radius: 4px;
+      color: white;
+      cursor: pointer;
+      font-family: arial,sans-serif;
+      font-size: 14px;
+      height: 36px;
+      line-height: 27px;
+      min-width: 26px;
+      padding: 0 8px;
+      text-align: center;
+      user-select: none;
+      -webkit-user-select: none;
+      touch-action: manipulation;
+      white-space: pre;
+      text-decoration: none;
+    }
+
+    .barra-superior button:hover, .barra-superior a:hover {
+      border-color: transparent;
+      color: black;
+    }
+
+    .barra-superior button:focus, .barra-superior a:focus {
+      border-color: #4285f4;
+      outline: none;
+    }
+
+    .envoltorio-tarea {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 20px;
+      background-color: white;
+      border-top: 1px solid #eee;
+    }
+
+    .titulo-tarea {
+      display: flex;
+    }
+
+    .titulo-tarea a {
+      text-decoration: none;
+      color: #4b5156;
+      margin-left: 30px
+    }
+
+    .icono-tarea-completa {
+      height: 20px;
+      width: 20px;
+      background-color: rgb(105, 162, 105);
+      border-radius: 50px;
+    }
+
+    .icono-tarea-incompleta {
+      height: 20px;
+      width: 20px;
+      background-color: #eee;
+      border-radius: 50px;
+    }
+
+    .eliminar {
+      text-decoration: none;
+      font-weight: 900;
+      color: #EA4220;
+      font-size: 22px;
+      line-height: 0;
+    }
+
+    #envoltorio-agregar-buscar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px;
+    }
+
+    #envoltorio-agregar-buscar form {
+      margin-top: 20px;
+      display: flex;
+    }
+
+    .button {
+      background-color: orangered;
+      border: 1px solid transparent;
+      border-radius: 4px;
+      color: white;
+      cursor: pointer;
+      font-family: arial,sans-serif;
+      font-size: 14px;
+      height: 36px;
+      line-height: 27px;
+      padding: 0 8px;
+      text-align: center;
+      user-select: none;
+      -webkit-user-select: none;
+      touch-action: manipulation;
+      white-space: pre;
+    }
+
+    .button:hover {
+      background-color: white;
+      color: black;
+    }
+
+    #enlace-agregar {
+      color: rgb(105, 162, 105);
+      text-decoration: none;
+      font-size: 42px;
+      text-shadow: 1px 1px #81423B;
+    }
+
+    input[type=text],
+    input[type=password],
+    textarea {
+      border: 1px solid #EB796F;
+      border-radius: 5px;
+      padding: 10px;
+      width: 90%;
+    }
+
+    label {
+      padding-top: 10px !important;
+      display: block;
+    }
+
+    .cuerpo-tarjeta {
+      padding: 20px;
+    }
+
+  </style>
+  <title>Lista de pendientes</title>
+</head>
+<body>
+  <div class="container">
+    {% block content %}
+
+
+
+    {% endblock content %}
+  </div>
+</body>
+</html>

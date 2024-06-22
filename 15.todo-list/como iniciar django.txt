@@ -1,0 +1,21 @@
+1. creamos una carpeta, en este caso se llama src
+2. vamos a la carpeta que acabamos de crear que es src y alli escribimos: django-admin startproject <nombredelproyecto>
+3. ingresamos a la carpeta del proyecto que acabamos de crear con el comando anterior y corremos python manage.py runserver
+4. realizado este paso, estara corriedo en local django
+
+5. como crear superusuario, en consola escribir: python manage.py createsuperuser
+usuario: root
+email: 
+password: root
+
+6. para probar el superusuario entramos a la url que genera el proyecto + admin:
+ejemplo: http://127.0.0.1:8000/admin/
+
+6. Crear la app
+python manage.py startapp <nombredelaapp>
+ejemplo: python manage.py startapp base
+
+7. enviar tablas a la base de datos
+  cada vez que se cree un modelo/tabla en el archivo base/models deben seguirse estos pasos:
+    1. crear el archivo: python manage.py makemigrations
+    2. migrar la tabla al sitio: python manage.py migrate
